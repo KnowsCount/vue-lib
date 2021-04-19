@@ -1,7 +1,7 @@
 {
 	"name": "vue-lib",
 	"version": "1.0.0",
-	"description": "",
+	"description": "personal vue component library.",
 	"main": "dist/vue-lib.ssr.js",
 	"browser": "dist/vue-lib.esm.js",
 	"module": "dist/vue-lib.esm.js",
@@ -19,7 +19,7 @@
 		"build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
 	},
 	"dependencies": {
-		"gsap": "^3.4.0",
+		"gsap": "3.4.0",
 		"sass": "1.26.2",
 		"sass-loader": "7.3.1"
 	},
