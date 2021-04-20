@@ -1,8 +1,8 @@
 <!--
  * @Date: 19/04/2021 13.43.25 +0800
  * @Author: KnowsCount
- * @LastEditTime: 19/04/2021 20.41.28 +0800
- * @FilePath: /src/lib-components/vue-lib-sample.vue
+ * @LastEditTime: 20/04/2021 16.35.37 +0800
+ * @FilePath: /vue-lib/src/lib-components/input-box.vue
 -->
 
 <template>
@@ -363,32 +363,10 @@ html {
 
 // Center & dribbble
 body {
-	min-height: 100vh;
-	display: flex;
+	// min-height: 100vh;
+	// display: flex;
 	font-family: 'Inter', Arial;
-	justify-content: center;
-	align-items: center;
-	background: #fff;
-	.dribbble {
-		position: fixed;
-		display: block;
-		right: 20px;
-		bottom: 20px;
-		img {
-			display: block;
-			height: 28px;
-		}
-	}
-	.twitter {
-		position: fixed;
-		display: block;
-		right: 64px;
-		bottom: 14px;
-		svg {
-			width: 32px;
-			height: 32px;
-			fill: #1da1f2;
-		}
-	}
+	// justify-content: center;
+	// align-items: center;
 }
 </style>
