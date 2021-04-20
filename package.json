@@ -1,6 +1,7 @@
 {
-	"name": "vue-lib",
+	"name": "@knowscount/vue-lib",
 	"version": "1.0.0",
+	"private": false,
 	"description": "personal vue component library.",
 	"main": "dist/vue-lib.ssr.js",
 	"browser": "dist/vue-lib.esm.js",
@@ -10,6 +11,16 @@
 		"dist/*",
 		"src/**/*.vue"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KnowsCount/vue-lib.git"
+	},
+	"keywords": [
+		"vue",
+		"library"
+	],
+	"author": "KnowsCount",
+	"license": "MIT",
 	"sideEffects": false,
 	"scripts": {
 		"serve": "vue-cli-service serve dev/serve.js",
