@@ -10,6 +10,8 @@
 
 # @knowscount/vue-lib
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e38e2e648a24e7c8ec77f37e9342365)](https://app.codacy.com/gh/KnowsCount/vue-lib?utm_source=github.com&utm_medium=referral&utm_content=KnowsCount/vue-lib&utm_campaign=Badge_Grade_Settings)
+
 > a personal vue component library.
 
 ## 📌 to-dos
