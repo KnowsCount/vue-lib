@@ -1,7 +1,7 @@
 <!--
  * @Date: 21/04/2021 07.23.51 +0800
  * @Author: KnowsCount
- * @LastEditTime: 22/04/2021 09.49.03 +0800
+ * @LastEditTime: 22/04/2021 10.18.02 +0800
  * @FilePath: /vue-lib/README.md
 -->
 
@@ -18,7 +18,15 @@ marked in [issues](https://github.com/KnowsCount/vue-lib/issues).
 
 ## 🤤 usage
 
-see #3.
+see [#3](https://github.com/KnowsCount/vue-lib/issues/3).
+
+to install the library, run
+
+```
+npm install --save @knowscount/vue-lib
+```
+
+you can choose to import the entire library, or use a slightly different syntax to import individual components:
 
 <!-- prettier-ignore-start -->
 
