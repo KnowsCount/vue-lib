@@ -1,7 +1,7 @@
 <!--
  * @Date: 21/04/2021 07.23.51 +0800
  * @Author: KnowsCount
- * @LastEditTime: 22/04/2021 10.18.02 +0800
+ * @LastEditTime: 23/04/2021 19.46.36 +0800
  * @FilePath: /vue-lib/README.md
 -->
 
@@ -12,7 +12,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e38e2e648a24e7c8ec77f37e9342365)](https://app.codacy.com/gh/KnowsCount/vue-lib?utm_source=github.com&utm_medium=referral&utm_content=KnowsCount/vue-lib&utm_campaign=Badge_Grade_Settings)
 
-> a personal vue component library.
+> vue component library containing fun stuff.
 
 ## 📌 to-dos
 
