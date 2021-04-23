@@ -1,7 +1,7 @@
 <!--
  * @Date: 21/04/2021 07.23.51 +0800
  * @Author: KnowsCount
- * @LastEditTime: 23/04/2021 19.46.36 +0800
+ * @LastEditTime: 23/04/2021 20.38.27 +0800
  * @FilePath: /vue-lib/README.md
 -->
 
@@ -34,26 +34,26 @@ you can choose to import the entire library, or use a slightly different syntax 
 
 ```vue.js
 // Import and register entire library
-import MyLibrary from '@knowscount/my-library';
-Vue.use(MyLibrary);
+import VueLib from '@knowscount/vue-lib';
+Vue.use(VueLib);
 ```
 
 ```vue.js
 // Import and register globally individual components from the library
-import { MyComponent, MyComponent2 } from '@knowscount/my-library';
-Vue.component('MyComponent', MyComponent);
-Vue.component('MyComponent2', MyComponent2);
+import { FooComponent, FooComponent2 } from '@knowscount/vue-lib';
+Vue.component('FooComponent', FooComponent);
+Vue.component('FooComponent2', FooComponent2);
 ```
 
 ```vue.js
 // Import and register locally individual components from the library
-import { MyComponent, MyComponent2 } from '@knowscount/my-library';
+import { FooComponent, FooComponent2 } from '@knowscount/vue-lib';
 
 export default {
   name: 'SomeParentComponent',
   components: {
-    MyComponent,
-    MyComponent2,
+    FooComponent,
+    FooComponent2,
   }
   ...
 }
