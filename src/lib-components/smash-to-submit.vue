@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 18.36.07 +0800
  * @Author: KnowsCount
- * @LastEditTime: 23/04/2021 18.46.01 +0800
+ * @LastEditTime: 23/04/2021 19.03.48 +0800
  * @FilePath: /vue-lib/src/lib-components/smash-to-submit.vue
 -->
 
@@ -28,6 +28,7 @@
 <script >
 import gsap from 'gsap';
 export default {
+	name: "smash-to-submit",
 	data() {
 		return {
 			confettiAmount: 100,
@@ -43,10 +44,10 @@ export default {
 			complete: false,
 		};
 	},
-	props:{
-		name:{
-		type:String,
-		default:'Smash to submit'
+	props: {
+		name: {
+		type: String,
+		default: 'Smash to submit'
 		}
 	},
 	methods: {
