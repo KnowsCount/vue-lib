@@ -1,7 +1,7 @@
 <!--
  * @Date: 24/04/2021 11.12.52 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.51.39 +0800
+ * @LastEditTime: 24/04/2021 15.07.32 +0800
  * @FilePath: /vue-lib/src/lib-components/favourite-button.vue
 -->
 
@@ -141,10 +141,6 @@
 	}
 }
 
-html {
-	-webkit-font-smoothing: antialiased;
-}
-
 * {
 	box-sizing: inherit;
 	&:before,
@@ -153,6 +149,7 @@ html {
 	}
 	font-family: 'Inter', Arial;
 	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 </style>
 

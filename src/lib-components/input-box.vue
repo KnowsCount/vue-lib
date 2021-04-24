@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 13.43.25 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.48.37 +0800
+ * @LastEditTime: 24/04/2021 15.06.43 +0800
  * @FilePath: /vue-lib/src/lib-components/input-box.vue
 -->
 
@@ -348,11 +348,6 @@ export default {
 	}
 }
 
-html {
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
-}
-
 * {
 	box-sizing: inherit;
 	&:before,
@@ -360,5 +355,7 @@ html {
 		box-sizing: inherit;
 	}
 	font-family: 'Inter', Arial;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 </style>

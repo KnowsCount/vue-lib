@@ -1,7 +1,7 @@
 <!--
  * @Date: 24/04/2021 14.22.02 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.48.49 +0800
+ * @LastEditTime: 24/04/2021 15.07.05 +0800
  * @FilePath: /vue-lib/src/lib-components/paperplane-button.vue
 -->
 
@@ -151,11 +151,6 @@
 	}
 }
 
-html {
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
-}
-
 * {
 	box-sizing: inherit;
 	&:before,
@@ -163,6 +158,8 @@ html {
 		box-sizing: inherit;
 	}
 	font-family: 'Inter', Arial;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 </style>
 

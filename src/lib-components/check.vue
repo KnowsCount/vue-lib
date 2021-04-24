@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 19.00.14 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.49.21 +0800
+ * @LastEditTime: 24/04/2021 15.07.13 +0800
  * @FilePath: /vue-lib/src/lib-components/check.vue
 -->
 
@@ -120,11 +120,6 @@ export default {
 	}
 }
 
-html {
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
-}
-
 * {
 	box-sizing: inherit;
 	&:before,
@@ -132,5 +127,7 @@ html {
 		box-sizing: inherit;
 	}
 	font-family: 'Inter', Arial;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 </style>

@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 19.48.35 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.49.09 +0800
+ * @LastEditTime: 24/04/2021 15.07.22 +0800
  * @FilePath: /vue-lib/src/lib-components/feedback-reactions.vue
 -->
 
@@ -404,11 +404,6 @@
 	}
 }
 
-html {
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
-}
-
 * {
 	box-sizing: inherit;
 	&:before,
@@ -416,6 +411,8 @@ html {
 		box-sizing: inherit;
 	}
 	font-family: 'Inter', Arial;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 </style>
 
