@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 20.31.32 +0800
  * @Author: KnowsCount
- * @LastEditTime: 23/04/2021 20.14.48 +0800
+ * @LastEditTime: 24/04/2021 11.15.01 +0800
  * @FilePath: /vue-lib/dev/serve.vue
 -->
 <script>
@@ -12,6 +12,7 @@ import InputBox from '../src/lib-components/input-box.vue';
 import SmashToSubmit from '../src/lib-components/smash-to-submit.vue';
 import Check from '../src/lib-components/check.vue';
 import FeedbackReactions from '../src/lib-components/feedback-reactions.vue';
+import FavouriteButton from '../src/lib-components/favourite-button.vue';
 
 export default Vue.extend({
 	name: 'ServeDev',
@@ -19,7 +20,8 @@ export default Vue.extend({
 		InputBox,
 		SmashToSubmit,
 		Check,
-		FeedbackReactions
+		FeedbackReactions,
+		FavouriteButton
 	}
 });
 </script>
@@ -30,5 +32,6 @@ export default Vue.extend({
 		<smash-to-submit />
 		<check />
 		<feedback-reactions />
+		<favourite-button />
 	</div>
 </template>
