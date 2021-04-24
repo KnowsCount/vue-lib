@@ -1,8 +1,8 @@
 {
 	"name": "@knowscount/vue-lib",
-	"version": "1.5.9",
+	"version": "1.6.10",
 	"private": false,
-	"description": "personal vue component library.",
+	"description": "fun vue component library built on @aaroniker's codepens.",
 	"main": "dist/vue-lib.ssr.js",
 	"browser": "dist/vue-lib.esm.js",
 	"module": "dist/vue-lib.esm.js",
@@ -16,8 +16,14 @@
 		"url": "git+https://github.com/KnowsCount/vue-lib.git"
 	},
 	"keywords": [
+		"vuejs",
+		"library",
+		"component",
 		"vue",
-		"library"
+		"codepen",
+		"vuejs2",
+		"component-library",
+		"lib"
 	],
 	"author": "KnowsCount",
 	"license": "MIT",

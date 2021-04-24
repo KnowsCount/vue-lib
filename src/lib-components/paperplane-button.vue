@@ -1,14 +1,14 @@
 <!--
  * @Date: 24/04/2021 14.22.02 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 15.07.05 +0800
+ * @LastEditTime: 24/04/2021 21.45.42 +0800
  * @FilePath: /vue-lib/src/lib-components/paperplane-button.vue
 -->
 
 <template>
 	<button class="button" @click="changeToPlane">
-		<span class="default">Send</span>
-		<span class="success">Sent</span>
+		<span class="default">{{ text }}</span>
+		<span class="success">{{ textSuccess }}</span>
 		<div class="left"></div>
 		<div class="right"></div>
 	</button>
@@ -168,6 +168,16 @@ import gsap from 'gsap'
 
 export default {
 	name: "paperplane-button",
+	props: {
+		text: {
+			type: String,
+			default: "send"
+		},
+		textSuccess: {
+			type: String,
+			default: "sent"
+		}
+	},
 	methods: {
 		changeToPlane () {
 			document.querySelectorAll('.button').forEach(button => {

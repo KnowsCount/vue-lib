@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 20.31.32 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.57.37 +0800
+ * @LastEditTime: 24/04/2021 21.46.57 +0800
  * @FilePath: /vue-lib/dev/serve.vue
 -->
 <script>
@@ -38,7 +38,7 @@ export default Vue.extend({
 		<br />
 		<feedback-reactions />
 		<br />
-		<favourite-button />
+		<favourite-button/>
 		<br />
 		<paperplane-button />
 	</div>

@@ -1,7 +1,7 @@
 <!--
  * @Date: 24/04/2021 11.12.52 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 15.07.32 +0800
+ * @LastEditTime: 24/04/2021 21.45.50 +0800
  * @FilePath: /vue-lib/src/lib-components/favourite-button.vue
 -->
 
@@ -11,7 +11,7 @@
 			<div class="icon">
 				<div class="star"></div>
 			</div>
-			<span>Favourite</span>
+			<span>{{ text }}</span>
 		</button>
 	</div>
 </template>
@@ -158,6 +158,12 @@ import gsap from 'gsap'
 
 export default {
 	name: "favourite-button",
+	props: {
+		text: {
+			type: String,
+			default: "favourite"
+		}
+	},
 	methods: {
 		starJump () {
 			document.querySelectorAll('.favorite-button').forEach(button => {

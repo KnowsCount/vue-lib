@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 18.36.07 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.52.21 +0800
+ * @LastEditTime: 24/04/2021 21.48.24 +0800
  * @FilePath: /vue-lib/src/lib-components/smash-to-submit.vue
 -->
 
@@ -18,8 +18,8 @@
 			<div class="weight"></div>
 		</div>
 			<div class="text">
-				<span>{{name}}</span>
-				<span>Yaay! Submitted.</span>
+				<span>{{ text }}</span>
+				<span>{{ successText }}</span>
 			</div>
 		</div>
 	</button>
@@ -45,9 +45,13 @@ export default {
 		};
 	},
 	props: {
-		name: {
-		type: String,
-		default: 'Smash to submit'
+		text: {
+			type: String,
+			default: 'smash to submit'
+		},
+		successText: {
+			type: String,
+			default: "yaay! submitted."
 		}
 	},
 	methods: {
