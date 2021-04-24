@@ -1,7 +1,7 @@
 <!--
  * @Date: 24/04/2021 14.22.02 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.40.37 +0800
+ * @LastEditTime: 24/04/2021 14.48.49 +0800
  * @FilePath: /vue-lib/src/lib-components/paperplane-button.vue
 -->
 
@@ -14,7 +14,7 @@
 	</button>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .button {
 	--primary: #275EFE;
 	--primary-dark: #2055EE;
@@ -162,6 +162,7 @@ html {
 	&:after {
 		box-sizing: inherit;
 	}
+	font-family: 'Inter', Arial;
 }
 </style>
 

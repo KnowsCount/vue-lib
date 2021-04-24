@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 20.31.32 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.26.27 +0800
+ * @LastEditTime: 24/04/2021 14.57.37 +0800
  * @FilePath: /vue-lib/dev/serve.vue
 -->
 <script>
@@ -31,9 +31,13 @@ export default Vue.extend({
 <template>
 	<div id="app">
 		<input-box />
+		<br />
 		<smash-to-submit />
+		<br />
 		<check />
+		<br />
 		<feedback-reactions />
+		<br />
 		<favourite-button />
 		<br />
 		<paperplane-button />

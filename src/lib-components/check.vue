@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 19.00.14 +0800
  * @Author: KnowsCount
- * @LastEditTime: 23/04/2021 19.01.29 +0800
+ * @LastEditTime: 24/04/2021 14.49.21 +0800
  * @FilePath: /vue-lib/src/lib-components/check.vue
 -->
 
@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .checkbox {
 	--border-default: #bbbbc1;
 	--border-hover: #9898a3;
@@ -131,5 +131,6 @@ html {
 	&:after {
 		box-sizing: inherit;
 	}
+	font-family: 'Inter', Arial;
 }
 </style>

@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 19.48.35 +0800
  * @Author: KnowsCount
- * @LastEditTime: 23/04/2021 20.21.31 +0800
+ * @LastEditTime: 24/04/2021 14.49.09 +0800
  * @FilePath: /vue-lib/src/lib-components/feedback-reactions.vue
 -->
 
@@ -73,7 +73,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .feedback {
 	--normal: #ECEAF3;
 	--normal-shadow: #D9D8E3;
@@ -415,6 +415,7 @@ html {
 	&:after {
 		box-sizing: inherit;
 	}
+	font-family: 'Inter', Arial;
 }
 </style>
 

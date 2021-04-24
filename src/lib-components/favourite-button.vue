@@ -1,7 +1,7 @@
 <!--
  * @Date: 24/04/2021 11.12.52 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 12.13.25 +0800
+ * @LastEditTime: 24/04/2021 14.51.39 +0800
  * @FilePath: /vue-lib/src/lib-components/favourite-button.vue
 -->
 
@@ -16,7 +16,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .favorite-button {
 	--background-default: #313440;
 	--text-color-default: #FAFBFF;
@@ -142,7 +142,6 @@
 }
 
 html {
-	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -152,6 +151,8 @@ html {
 	&:after {
 		box-sizing: inherit;
 	}
+	font-family: 'Inter', Arial;
+	box-sizing: border-box;
 }
 </style>
 

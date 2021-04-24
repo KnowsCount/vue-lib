@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 13.43.25 +0800
  * @Author: KnowsCount
- * @LastEditTime: 20/04/2021 16.35.37 +0800
+ * @LastEditTime: 24/04/2021 14.48.37 +0800
  * @FilePath: /vue-lib/src/lib-components/input-box.vue
 -->
 
@@ -200,7 +200,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .input {
 	--background: #fff;
 	--border-default: #D0D0DF;
@@ -359,14 +359,6 @@ html {
 	&:after {
 		box-sizing: inherit;
 	}
-}
-
-// Center & dribbble
-body {
-	// min-height: 100vh;
-	// display: flex;
 	font-family: 'Inter', Arial;
-	// justify-content: center;
-	// align-items: center;
 }
 </style>

@@ -1,7 +1,7 @@
 <!--
  * @Date: 23/04/2021 18.36.07 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 14.40.28 +0800
+ * @LastEditTime: 24/04/2021 14.52.21 +0800
  * @FilePath: /vue-lib/src/lib-components/smash-to-submit.vue
 -->
 
@@ -157,7 +157,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .button {
 	--color: #f6f8ff;
 	--background: #171827;
@@ -418,16 +418,14 @@ export default {
 	}
 }
 
-html {
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
-}
-
 * {
 	box-sizing: inherit;
 	&:before,
 	&:after {
 		box-sizing: inherit;
 	}
+	font-family: 'Inter', Arial;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 </style>
