@@ -1,7 +1,7 @@
 <!--
  * @Date: 21/04/2021 07.23.51 +0800
  * @Author: KnowsCount
- * @LastEditTime: 23/04/2021 20.38.27 +0800
+ * @LastEditTime: 24/04/2021 15.09.35 +0800
  * @FilePath: /vue-lib/README.md
 -->
 
@@ -63,7 +63,7 @@ export default {
 
 ## 🙋‍♂️ contributing
 
-please read [CONTRIBUTING.md](./CONTRIBUTING.md)
+please read [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ### 🛠 project setup
 

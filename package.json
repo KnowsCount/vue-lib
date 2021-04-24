@@ -1,6 +1,6 @@
 {
 	"name": "@knowscount/vue-lib",
-	"version": "1.4.9",
+	"version": "1.5.9",
 	"private": false,
 	"description": "personal vue component library.",
 	"main": "dist/vue-lib.ssr.js",
