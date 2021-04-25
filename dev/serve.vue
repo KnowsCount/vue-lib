@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 20.31.32 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 21.46.57 +0800
+ * @LastEditTime: 25/04/2021 20.47.39 +0800
  * @FilePath: /vue-lib/dev/serve.vue
 -->
 <script>
@@ -14,6 +14,7 @@ import Check from '../src/lib-components/check.vue';
 import FeedbackReactions from '../src/lib-components/feedback-reactions.vue';
 import FavouriteButton from '../src/lib-components/favourite-button.vue';
 import PaperplaneButton from '../src/lib-components/paperplane-button.vue';
+import LinkHover from '../src/lib-components/link-hover.vue';
 
 export default Vue.extend({
 	name: 'ServeDev',
@@ -23,7 +24,8 @@ export default Vue.extend({
 		Check,
 		FeedbackReactions,
 		FavouriteButton,
-		PaperplaneButton
+		PaperplaneButton,
+		LinkHover
 	}
 });
 </script>
@@ -41,5 +43,7 @@ export default Vue.extend({
 		<favourite-button/>
 		<br />
 		<paperplane-button />
+		<br />
+		<link-hover />
 	</div>
 </template>
