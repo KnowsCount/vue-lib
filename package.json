@@ -1,6 +1,6 @@
 {
 	"name": "@knowscount/vue-lib",
-	"version": "1.6.10",
+	"version": "1.7.10",
 	"private": false,
 	"description": "fun vue component library built on @aaroniker's codepens.",
 	"main": "dist/vue-lib.ssr.js",

@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 20.31.32 +0800
  * @Author: KnowsCount
- * @LastEditTime: 25/04/2021 20.47.39 +0800
+ * @LastEditTime: 25/04/2021 21.45.18 +0800
  * @FilePath: /vue-lib/dev/serve.vue
 -->
 <script>
@@ -15,6 +15,7 @@ import FeedbackReactions from '../src/lib-components/feedback-reactions.vue';
 import FavouriteButton from '../src/lib-components/favourite-button.vue';
 import PaperplaneButton from '../src/lib-components/paperplane-button.vue';
 import LinkHover from '../src/lib-components/link-hover.vue';
+import SlidingTabs from '../src/lib-components/sliding-tabs.vue';
 
 export default Vue.extend({
 	name: 'ServeDev',
@@ -25,7 +26,8 @@ export default Vue.extend({
 		FeedbackReactions,
 		FavouriteButton,
 		PaperplaneButton,
-		LinkHover
+		LinkHover,
+		SlidingTabs
 	}
 });
 </script>
@@ -45,5 +47,7 @@ export default Vue.extend({
 		<paperplane-button />
 		<br />
 		<link-hover />
+		<br />
+		<sliding-tabs />
 	</div>
 </template>
