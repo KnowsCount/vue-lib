@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 13.43.25 +0800
  * @Author: KnowsCount
- * @LastEditTime: 24/04/2021 15.06.43 +0800
+ * @LastEditTime: 26/04/2021 10.50.09 +0800
  * @FilePath: /vue-lib/src/lib-components/input-box.vue
 -->
 
@@ -82,14 +82,14 @@ export default {
 				x: null
 			}, {
 				set (target, key, value) {
-					target[key] = value;
+					target[`${key}`] = value;
 					if (target.x !== null) {
 						svgLine.setAttribute("d", _this.getPath(target.x, 0.1925));
 					}
 					return true;
 				},
 				get (target, key) {
-					return target[key];
+					return target[`${key}`];
 				}
 			});
 			svgLineProxy.x = 0;
