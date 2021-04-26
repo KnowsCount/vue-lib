@@ -1,7 +1,7 @@
 <!--
  * @Date: 19/04/2021 13.43.25 +0800
  * @Author: KnowsCount
- * @LastEditTime: 26/04/2021 10.50.09 +0800
+ * @LastEditTime: 26/04/2021 16.52.03 +0800
  * @FilePath: /vue-lib/src/lib-components/input-box.vue
 -->
 
@@ -124,7 +124,7 @@ export default {
 					onComplete () {
 						input.value = "";
 						input.focus();
-						console.log(input.value);
+						// console.log(input.value);
 						gsap.to(elem, {
 							"--clear-arrow-offset": "4px",
 							"--clear-arrow-offset-second": "4px",
